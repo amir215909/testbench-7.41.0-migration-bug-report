@@ -3,17 +3,17 @@
 namespace VendorName\Skeleton\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+use VendorName\Skeleton\Models\Product;
 
-/*
-class ModelFactory extends Factory
+
+class ProductFactory extends Factory
 {
-    protected $model = YourModel::class;
+    protected $model = Product::class;
 
-    public function definition()
+    public function definition(): array
     {
         return [
 
         ];
     }
 }
-*/

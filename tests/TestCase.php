@@ -15,6 +15,8 @@ class TestCase extends Orchestra
         Factory::guessFactoryNamesUsing(
             fn (string $modelName) => 'VendorName\\Skeleton\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
+
+        $this->loadMigrationsFrom(__DIR__ . '/Fake/database/migrations');
     }
 
     protected function getPackageProviders($app)
