@@ -3,7 +3,6 @@
 namespace VendorName\Skeleton\Tests;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use VendorName\Skeleton\Tests\Fake\Models\Demo;
 
 class DemoTest extends TestCase
 {

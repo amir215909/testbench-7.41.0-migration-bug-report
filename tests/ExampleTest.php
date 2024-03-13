@@ -1,7 +1,5 @@
 <?php
 
-use VendorName\Skeleton\Tests\Fake\Models\Demo;
-
 it('test_package_migrations_run_fine', function () {
     $product = \VendorName\Skeleton\Models\Product::factory()->create();
 
