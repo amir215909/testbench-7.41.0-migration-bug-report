@@ -3,7 +3,6 @@
 namespace VendorName\Skeleton\Tests;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use VendorName\Skeleton\Tests\Fake\Models\Demo;
 
 class DemoTest extends TestCase
 {
@@ -20,6 +19,6 @@ class DemoTest extends TestCase
     {
         $demo = \VendorName\Skeleton\Tests\Fake\Models\Demo::factory()->create();
 
-        expect($demo->id)->toBe(1);
+        self::assertEquals(1, $demo->id);
     }
 }
