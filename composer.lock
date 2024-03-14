@@ -5855,24 +5855,24 @@
         },
         {
             "name": "orchestra/testbench",
-            "version": "v7.41.0",
+            "version": "v7.40.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench.git",
-                "reference": "e285c4f5e20936ca628c008448ccf1e09a3739f6"
+                "reference": "27e74a34cd7588805cc8d4977f7226c38c3251de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench/zipball/e285c4f5e20936ca628c008448ccf1e09a3739f6",
-                "reference": "e285c4f5e20936ca628c008448ccf1e09a3739f6",
+                "url": "https://api.github.com/repos/orchestral/testbench/zipball/27e74a34cd7588805cc8d4977f7226c38c3251de",
+                "reference": "27e74a34cd7588805cc8d4977f7226c38c3251de",
                 "shasum": ""
             },
             "require": {
                 "fakerphp/faker": "^1.21",
                 "laravel/framework": "^9.52.15",
                 "mockery/mockery": "^1.5.1",
-                "orchestra/testbench-core": "^7.42",
-                "orchestra/workbench": "^1.4 || ^7.4",
+                "orchestra/testbench-core": "^7.40",
+                "orchestra/workbench": "^1.2 || ^7.2",
                 "php": "^8.0",
                 "phpunit/phpunit": "^9.5.10",
                 "symfony/process": "^6.0.9",
@@ -5908,22 +5908,22 @@
             ],
             "support": {
                 "issues": "https://github.com/orchestral/testbench/issues",
-                "source": "https://github.com/orchestral/testbench/tree/v7.41.0"
+                "source": "https://github.com/orchestral/testbench/tree/v7.40.0"
             },
-            "time": "2024-03-13T06:56:05+00:00"
+            "time": "2024-01-19T14:23:36+00:00"
         },
         {
             "name": "orchestra/testbench-core",
-            "version": "v7.42.0",
+            "version": "v7.41.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "595a17f9d3e51d4458eb8ed752c999f857c99309"
+                "reference": "e2f22292a2e1e8987fc6e15cc8a0b2e5f1e035e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/595a17f9d3e51d4458eb8ed752c999f857c99309",
-                "reference": "595a17f9d3e51d4458eb8ed752c999f857c99309",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/e2f22292a2e1e8987fc6e15cc8a0b2e5f1e035e0",
+                "reference": "e2f22292a2e1e8987fc6e15cc8a0b2e5f1e035e0",
                 "shasum": ""
             },
             "require": {
@@ -6006,7 +6006,7 @@
                 "issues": "https://github.com/orchestral/testbench/issues",
                 "source": "https://github.com/orchestral/testbench-core"
             },
-            "time": "2024-03-13T03:48:44+00:00"
+            "time": "2024-02-21T14:15:41+00:00"
         },
         {
             "name": "orchestra/workbench",
