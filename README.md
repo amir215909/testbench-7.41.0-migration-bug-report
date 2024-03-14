@@ -16,8 +16,9 @@ Migrations loaded with `loadMigrationsFrom` method of `InteractsWithMigrations` 
 * Database Driver: sqlite
 
 ## How to Reproduce
-
-`main` branch contains the bugged version and `testbench-7.40.0` branch contains without bug version
+1. Publish migrations using `vendor/bin/testbench vendor:publish --force --all`
+2. Run `DemoTest.php`
+3. Tests should fail because the `demos` is not created
 
 ## Branches
 
